@@ -103,4 +103,4 @@ if not _RELEASE:
     st.write('User info')
     st.write(user_info)
     if st.button('rerun'):
-        st.experimental_rerun()
+        st.rerun()
