@@ -19,10 +19,12 @@ let domain
 let auth0
 
 const logout = async () => {
-  auth0.logout({returnTo: getOriginUrl()})
+  // auth0.logout({returnTo: getOriginUrl()})
+  await auth0.logout({returnTo: getOriginUrl()})
   button.textContent = "Login"
   button.removeEventListener('click', logout)
   button.addEventListener('click', login)
+  Streamlit.setComponentValue(null)
 }
 
 const login = async () => {
