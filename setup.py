@@ -1,10 +1,10 @@
 import setuptools
 
 setuptools.setup(
-    name="streamlit-auth0-component",
-    version="0.1.5",
-    author="",
-    author_email="",
+    name="streamlit-auth0-component-custom",
+    version="0.1.0",
+    author="John",
+    author_email="hou0922@gmail.com",
     description="",
     long_description="",
     long_description_content_type="text/plain",
